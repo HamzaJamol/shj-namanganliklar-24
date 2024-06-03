@@ -21,6 +21,34 @@ body {
   color: #4a4b4c ;
 }
 
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-primary{
+  background-color: #7296ec;
+  color: #fff;
+}
+
+.button-primary:hover {
+  opacity: 0.8;
+}
+
+.button-primary:active {
+  opacity: 0.6;
+}
+
+/* CONTAINER */
 .container {
   width: 100%;
   max-width: 1240px;
@@ -30,34 +58,107 @@ body {
   margin-left: auto;
 }
 
+
+/* SITE-HEADER */
+.site-header {
+}
+
+/* SITE-HEADER-TOP */
 .site-header-top {
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #f6f6f6;
 }
 
 .site-header-top-container {
-  height: 105px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.site-logo {
+/* SITE-HEADER-LOGO */
+.site-header-logo {
+  display: flex;
+  padding: 8px 6px;
+  margin-right: 35px;
+  border-radius: 7px;
+  background-color: #fff;
+
+}
+
+.site-header-logo:hover {
+  opacity: 0.8;
+}
+
+.site-header-logo:active {
+  opacity: 0.6;
+}
+
+
+
+.site-header-top {
+}
+
+.site-header-top-container {
+}
+
+.container {
+}
+
+
+/* CURRENCY-RATES */
+.currency-rates {
   display: flex;
   align-items: center;
-  width: 275px;
-  height: 45px;
-  font-size: 24px;
-  font-family: "Rubik", serif, sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+  list-style: none;
 }
 
-.site-logo-text {
-  text-decoration: none;
+.currensy-rates-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.currency-rates-type {
+  color: #2959ce;
+}
+
+
+/* LANG-TOOGLE */
+.lang-toggle {
+  display: flex;
+  padding: 3px;
+  margin-right: 25px;
+  border-radius: 39px;
+  background-color: #dce6ff;
+}
+
+.lang-toggle-link {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-style: 13px;
+  line-height: 30px;
+  color: #a6a6a6;
   background-color: #fff;
-  color: #7296ee;
+  text-align: center;
+  text-decoration: none;
 }
 
+.lang-toggle-link-active {
+  background-color: fff;
+  color: #000;
+}
+
+.button {
+}
+
+.button-primary {
+}
+
+
+/* bottom-older */
 .site-header-top-money-table {
   display: flex;
   align-items: center;
