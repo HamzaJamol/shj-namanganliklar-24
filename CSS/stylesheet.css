@@ -197,7 +197,7 @@ body {
   display: block;
   color: #7f7f7f;
   text-decoration: none;
-  }
+}
 
 .sitenav-link:hover {
   color: #7296ec;
@@ -220,76 +220,80 @@ body {
 }
 
 
-
-
-/* .main-top-announse-img {
-
-}
-
-.main-top-container-articles {
-}
-
-.container {
-}
-
-.main-top-articles {
-}
-
-.main-top-articles-nav {
+/* NEWS-GRID */
+.news-grid {
+  display: flex;
   flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.news-grid-item {
+  width: 393px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.article-card {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 17px 15px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
 }
 
-.main-top-articles-list {
-  display: block;
-  width: 360px;
-
+.article-card-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
 }
 
-.main-top-articles-link {
-}
-
-.main-top-articles-img {
-}
-
-
-/* FOOTER */
-/* .site-footer {
-  background-color: #7297ef;
-}
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-.site-logo {
-}
-.site-logo-text {
-}
-.footer-inner {
-
-}
-.ul-slider {
-}
-.slider-item {
-  display: block;
-}
-.slider-link {
+.articlecard-link {
+  display: inline-block;
+  color: #000;
   text-decoration: none;
 }
-.footer-socials {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+.articlecard-link:hover {
+  color: #7296ec;
 }
-.socials-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+.articlecard-link:active{
+  opacity: 0.6;
 }
-.socials-item {
+
+.article-card-text {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.article-card-img {
   display: block;
+  width: 360px;
+  height: 165px;
+  margin-top: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  object-fit: cover;
 }
-.socials-img { */
+
+.article-card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.article-card-source-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.article-card-source-time {
+  font-size: 12px;
+  line-height: normal;
+}
+
+.article-card-source {
+}
